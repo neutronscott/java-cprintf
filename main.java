@@ -23,5 +23,8 @@ class main {
 
     System.out.printf("Expected \"3.14      \": ");
     out.printf("\"%-*.*f\"\n", 10, 2, 3.14159265);
+
+    System.out.printf("Expected \"+7.894561230000000e+08\": ");
+    out.printf("\"%+#22.15e\"\n", 789456123.0);
   }
 }

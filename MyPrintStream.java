@@ -9,7 +9,7 @@ class MyPrintStream extends PrintStream {
   private static final Pattern printfPattern = Pattern.compile(
      "%" +
      "(?<idx>[0-9]*\\$)?" +
-     "(?<flags>[-#+ 0,(])?" +
+     "(?<flags>[-#+ 0,(]*)?" +
      "(?<width>\\*|[0-9]*)?" +
      "(?<precision>\\.\\*|\\.[0-9]*)?" +
      "(?<conv>[bBhHsScCdoxXeEfgGaAtT%n])"
